@@ -1,0 +1,9 @@
+C:\Users\EdgeKiller\Desktop\SharpCoin\SharpMail\SharpMail\obj\Debug\SharpMail.csprojResolveAssemblyReference.cache
+C:\Users\EdgeKiller\Desktop\SharpCoin\SharpMail\SharpMail\bin\Debug\SharpMail.dll
+C:\Users\EdgeKiller\Desktop\SharpCoin\SharpMail\SharpMail\bin\Debug\SharpMail.pdb
+C:\Users\EdgeKiller\Desktop\SharpCoin\SharpMail\SharpMail\obj\Debug\SharpMail.dll
+C:\Users\EdgeKiller\Desktop\SharpCoin\SharpMail\SharpMail\obj\Debug\SharpMail.pdb
+E:\Projects\SharpMail\SharpMail\bin\Debug\SharpMail.dll
+E:\Projects\SharpMail\SharpMail\bin\Debug\SharpMail.pdb
+E:\Projects\SharpMail\SharpMail\obj\Debug\SharpMail.dll
+E:\Projects\SharpMail\SharpMail\obj\Debug\SharpMail.pdb
