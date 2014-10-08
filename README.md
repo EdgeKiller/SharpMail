@@ -1,0 +1,4 @@
+SharpMail
+=========
+
+C# Mail Library 
