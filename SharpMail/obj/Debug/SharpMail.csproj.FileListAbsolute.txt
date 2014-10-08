@@ -7,3 +7,4 @@ E:\Projects\SharpMail\SharpMail\bin\Debug\SharpMail.dll
 E:\Projects\SharpMail\SharpMail\bin\Debug\SharpMail.pdb
 E:\Projects\SharpMail\SharpMail\obj\Debug\SharpMail.dll
 E:\Projects\SharpMail\SharpMail\obj\Debug\SharpMail.pdb
+E:\Projects\SharpMail\SharpMail\obj\Debug\SharpMail.csprojResolveAssemblyReference.cache
