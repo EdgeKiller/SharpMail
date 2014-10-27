@@ -10,23 +10,21 @@ namespace SharpMail
 {
     public static class Mail
     {
-        public static void SendMail(string SMTP, string FROM, string TO, string SUBJECT, string BODY, string USERNAME, string PASSWORD, string MSGBOXSUCCESS = "")
+        public static void SendMail(string Smtp, string From, string To, string Subject, string Body, string Username, string Password, string MsgBoxSuccess = "")
         {
-            using (SmtpClient SmtpServer = new SmtpClient(SMTP))
+            using (SmtpClient SmtpServer = new SmtpClient(Smtp))
             {
+                MailMessage mail = new MailMessage();
+                mail.From = new MailAddress(From);
+                mail.To.Add(To);
+                mail.Subject = Subject;
+                mail.Body = Body;
+                SmtpServer.Port = 587;
+                SmtpServer.Credentials = new System.Net.NetworkCredential(Username, Password);
+                SmtpServer.EnableSsl = true;
                 try
                 {
-                    MailMessage mail = new MailMessage();
-                    mail.From = new MailAddress(FROM);
-                    mail.To.Add(TO);
-                    mail.Subject = SUBJECT;
-                    mail.Body = BODY;
-                    SmtpServer.Port = 587;
-                    SmtpServer.Credentials = new System.Net.NetworkCredential(USERNAME, PASSWORD);
-                    SmtpServer.EnableSsl = true;
                     SmtpServer.Send(mail);
-                    if (MSGBOXSUCCESS != "")
-                        MessageBox.Show(MSGBOXSUCCESS);
                 }
                 catch (Exception ex)
                 {
@@ -36,6 +34,8 @@ namespace SharpMail
                 {
                     SmtpServer.Dispose();
                 }
+                if (MsgBoxSuccess != "")
+                    MessageBox.Show(MsgBoxSuccess);
             }
         }
 
